@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 99.8%;
+    background-color: white;
+    text-align:left;
+    border:1px solid #ffffff;
+    border-bottom: 4px solid #5454a3;
+    box-shadow: 10px 10px 10px black;
+}
+#header ul li{
+    display:inline-block;
+    padding:5px 10px 5px;
+}
+#header ul li a{
+    text-decoration: none;
+    color: black;
+}
+#header ul li a:link{
+    color: black; 
+}
+#header ul li a:hover{
+    color: blue;
+    font-weight: bold;
+}
+#header ul li a:active{
+    color: black;
+}
+#top-search-bar{
+    width:450px;
+    height: 35px;
+    border-radius: 12px;
+    padding: 8px;
+}
+#top-search-bar:focus{
+    border: unset;
+    border: none;
+
+}
+#banner-section img{
+    margin-top:73px;
+   width:99.5%;
+   padding: 2px;
+}
+#banner-section #banner-text-section{
+    width:30rem;
+    left: 2.4rem;
+    top: 6.4rem;
+    box-sizing: border-box;
+}
+#banner-section #banner-text-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background:#fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08);
+    padding: 1.4rem;
+}
+#banner-section #banner-text-section h1{
+    font-size: 50px;
+}
+#banner-section #banner-text-section p{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+#banner-section #banner-text-section #body-search-bar{
+height:40px;
+border-radius:4px;
+padding: 8px;
+font-size: 16px;
+}
+#banner-section #banner-text-section #body-search-bar:focus{
+border: none;
+}
